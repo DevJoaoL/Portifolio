@@ -313,18 +313,6 @@ body.light .icon-moon { display: none; }
   display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start;
 }
 
-.about-text h2 {
-  font-family: 'DM Serif Display', serif;
-  font-size: 44px; font-weight: 400;
-  letter-spacing: -1.2px; line-height: 1.08; margin-bottom: 24px;
-}
-.about-text h2 em { font-style: italic; color: var(--accent); }
-
-.about-text p {
-  font-size: 15px; color: var(--muted);
-  font-weight: 300; line-height: 1.8; margin-bottom: 16px;
-}
-
 .edu { margin-top: 28px; display: flex; flex-direction: column; gap: 10px; }
 
 .edu-card {
