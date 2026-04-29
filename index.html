@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/Logotipo_Moderno_Tecnologia_e_Gaming_Roxo-removebg-preview-removebg-preview.png" type="image/x-icon">
+  <title>João Luiz — Desenvolvedor Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#">
+      <img src="img/Logotipo_Moderno_Tecnologia_e_Gaming_Roxo-removebg-preview-removebg-preview.png" alt="João Luiz" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#work">Projetos</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema">
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+      <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-photo">
+      <img src="img/Perfil-1.png" alt="João Luiz" />
+    </div>
+    <div class="badge">
+      <span class="dot"></span> Disponível para oportunidades
+    </div>
+    <p class="eyebrow">Desenvolvedor Web · Ciência da Computação</p>
+    <h1>João Luiz<br><em>Cota Verissimo</em></h1>
+    <p class="subtitle">Estudante de Ciência da Computação na FUMEC e técnico em Informática pelo COTEMIG. Transformando ideias em projetos digitais reais.</p>
+    <div class="hero-btns">
+      <a class="btn-primary" href="#work">Ver projetos</a>
+      <a class="btn-ghost" href="#contact">Fale comigo</a>
+    </div>
+  </section>
+
+  <div class="metrics">
+    <div class="metric"><span class="num">2</span><span class="label">Projetos publicados</span></div>
+    <div class="metric"><span class="num">5</span><span class="label">Tecnologias</span></div>
+    <div class="metric"><span class="num">2</span><span class="label">Formações</span></div>
+    <div class="metric"><span class="num">∞</span><span class="label">Vontade de aprender</span></div>
+  </div>
+
+  <section class="work" id="work">
+    <p class="section-label">Seleção de projetos</p>
+    <div class="cards">
+
+      <a class="card" href="http://joaoluizcotaverissimo.github.io/Chickenlittle/" target="_blank" rel="noopener">
+        <div class="card-img">
+          <img src="img/Tela-Delivery.png" alt="Site Delivery" />
+        </div>
+        <div class="card-body">
+          <span class="card-tag">HTML · CSS · Web</span>
+          <h3>Site Delivery</h3>
+          <p>Página web para restaurante delivery, desenvolvida com HTML e CSS.</p>
+        </div>
+        <span class="arrow">↗</span>
+      </a>
+
+      <a class="card" href="http://joaoluizcotaverissimo.github.io/elit_photo/" target="_blank" rel="noopener">
+        <div class="card-img">
+          <img src="img/mini tela-elit.png" alt="Elit Photos" />
+        </div>
+        <div class="card-body">
+          <span class="card-tag">HTML · CSS · Galeria</span>
+          <h3>Elit Photos</h3>
+          <p>Site de galeria de fotos com layout responsivo e design elegante.</p>
+        </div>
+        <span class="arrow">↗</span>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-text">
+      <p class="section-label">Sobre mim</p>
+      <h2>Código com<br>propósito <em>real</em></h2>
+      <p>Olá! Sou João Luiz, formado em Técnico em Informática pelo COTEMIG e atualmente cursando Ciência da Computação na Universidade FUMEC.</p>
+      <p>Tenho grande interesse por tecnologia e desenvolvimento web, e gosto de transformar ideias em projetos reais.</p>
+      <p>Além da programação, sou apaixonado por jogos eletrônicos e tecnologia. Em busca de oportunidades para crescer como desenvolvedor.</p>
+      <div class="edu">
+        <div class="edu-card"><strong>Universidade FUMEC</strong><span>Ciência da Computação</span><em>Em andamento</em></div>
+        <div class="edu-card"><strong>COTEMIG</strong><span>Técnico em Informática</span><em>Concluído</em></div>
+      </div>
+    </div>
+    <div class="skills">
+      <p class="skills-label">Habilidades</p>
+      <div class="skill"><div class="skill-info"><span>HTML</span><span>55%</span></div><div class="bar"><div data-w="55%"></div></div></div>
+      <div class="skill"><div class="skill-info"><span>CSS</span><span>55%</span></div><div class="bar"><div data-w="55%"></div></div></div>
+      <div class="skill"><div class="skill-info"><span>JavaScript</span><span>35%</span></div><div class="bar"><div data-w="35%"></div></div></div>
+      <div class="skill"><div class="skill-info"><span>SQL</span><span>50%</span></div><div class="bar"><div data-w="50%"></div></div></div>
+      <div class="skill"><div class="skill-info"><span>C#</span><span>50%</span></div><div class="bar"><div data-w="50%"></div></div></div>
+      <div class="skill"><div class="skill-info"><span>Excel</span><span>40%</span></div><div class="bar"><div data-w="40%"></div></div></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <p class="section-label">Contato</p>
+    <h2>Vamos construir algo <em>juntos</em></h2>
+    <p class="contact-sub">Aberto a oportunidades, projetos e colaborações.</p>
+
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <a href="tel:+5531991739410">
+          <div class="contact-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div><span>Telefone</span>(31) 9 9173-9410</div>
+        </a>
+        <a href="mailto:jlcotapro2007@gmail.com">
+          <div class="contact-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="16" rx="2" stroke="#a855f7" stroke-width="1.5"/><path d="m2 7 10 7 10-7" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div><span>E-mail</span>jlcotapro2007@gmail.com</div>
+        </a>
+        <a href="https://github.com/devjoaol" target="_blank" rel="noopener">
+          <div class="contact-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div><span>GitHub</span>devjoaol</div>
+        </a>
+        <a href="https://www.linkedin.com/in/joao-luiz-cota-verissimo/" target="_blank" rel="noopener">
+          <div class="contact-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="4" stroke="#a855f7" stroke-width="1.5"/><path d="M7 10v7M7 7v.5" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round"/><path d="M11 17v-4a2 2 0 0 1 4 0v4M11 10v7" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div><span>LinkedIn</span>João Luiz Cota Verissimo</div>
+        </a>
+      </div>
+
+      <div class="form" id="formCard">
+        <h3>Enviar mensagem</h3>
+        <div class="form-row">
+          <div class="field"><label>Nome</label><input type="text" id="fname" placeholder="Seu nome" /></div>
+          <div class="field"><label>E-mail</label><input type="email" id="femail" placeholder="seu@email.com" /></div>
+        </div>
+        <div class="field"><label>Assunto</label><input type="text" id="fsubject" placeholder="Assunto" /></div>
+        <div class="field"><label>Mensagem</label><textarea id="fmessage" placeholder="Sua mensagem..."></textarea></div>
+        <button onclick="submitForm()">Enviar mensagem →</button>
+      </div>
+
+      <div class="form-success" id="formSuccess">
+        <div class="success-icon">✓</div>
+        <h3>Mensagem enviada!</h3>
+        <p>Obrigado pelo contato. Responderei em breve.</p>
+        <button class="btn-ghost" onclick="resetForm()">Enviar outra</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 João Luiz Cota Verissimo</span>
+    <a href="https://github.com/devjoaol" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/joao-luiz-cota-verissimo/" target="_blank">Linkedin</a>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
