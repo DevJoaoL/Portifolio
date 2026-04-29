@@ -7,7 +7,7 @@ Portfólio online desenvolvido para apresentar meus projetos, habilidades e evol
 ## 🌐 Acesse o projeto
 
 🔗 **Portfólio publicado:**  
-https://devjoaol.github.io/Portif-lio/
+https://devjoaol.github.io/Portifolio/
 
 ---
 
